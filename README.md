@@ -7,17 +7,10 @@ JavaScript library to access services from the public API of the Public Transpor
 Request access to the API at http://opendata.emtmadrid.es/Formulario
 
 ## Installation
-emtmad-bus-times-bw is packaged using Bower ( http://bower.io/ ). Therefore, add the following dependency to your bower.json:
+emtmad-bus-times-bw is packaged using Bower ( http://bower.io/ ):
 
 ```sh
-{
-  "name": "yourproject",
-  "dependencies": {
-    (...)
-    "emtmad-bus-times-bw" :"~0.0.2",
-    (...)
-  }
-}
+bower install emtmad-bus-times-bw --save
 ```
 
 If you don't use bower, you can just download the emtmadBusTimes.js library.
