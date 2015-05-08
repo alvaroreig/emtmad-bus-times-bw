@@ -14,7 +14,7 @@ emtmad-bus-times-bw is packaged using Bower ( http://bower.io/ ). Therefore, add
   "name": "yourproject",
   "dependencies": {
     (...)
-    "emtmad-bus-times-bw" :"~0.0.1",
+    "emtmad-bus-times-bw" :"~0.0.2",
     (...)
   }
 }
