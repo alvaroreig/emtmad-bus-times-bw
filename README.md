@@ -74,8 +74,8 @@ If the call to the API wasn't successful, the returned JSON will be like this:
 
 ### CORS
 
-The SSL certificate in the endpoint ( https://openbus.emtmadrid.es ) is self-signed, so you will need to add to your browser's truststore.
+The SSL certificate in the endpoint ( https://openbus.emtmadrid.es ) is self-signed, so you will need to add it to your browser's truststore.
 
 ## Development
 
-Great! Pull requests are more than welcome. 
+Do you want to contribute? Great! Pull requests are more than welcome. 
