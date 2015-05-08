@@ -43,7 +43,7 @@ Once you have the library, you just need to call the getIncomingBuses(busStopNum
 
 If the call to the API is successful, the returned JSON will be like this:
 
-```json
+```sh
 {
     "status":200,
     "arrives":[{bus0},{bus1}....{busN}]
@@ -51,17 +51,19 @@ If the call to the API is successful, the returned JSON will be like this:
 ```
 
 Where every **{busN}** object represents an incoming bus to the specified bus stop. The most relevant attributes for each bus are:
-```json
+
+```sh
 {
-    lineId: "32", # The line of the bus
-    busDistance: 9, # In meters
-    busTimeLeft: 0 # In seconds
+    "lineId": "32", # The line of the bus
+    "busDistance": 9, # In meters
+    "busTimeLeft": 0 # In seconds
 }
 ```
 
+
 If the call to the API wasn't successful, the returned JSON will be like this:
 
-```json
+```sh
 {
     "status":400,
     "error": e
