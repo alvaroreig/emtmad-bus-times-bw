@@ -7,6 +7,9 @@
   ],
   "description": "JavaScript library to access the API of Madrid Public Bus Authority (EMT)",
   "main": "emtmadBusTimes.js",
+  "ignore":[
+    "bower.json"
+  ],
   "keywords": [
     "EMT",
     "bus"
