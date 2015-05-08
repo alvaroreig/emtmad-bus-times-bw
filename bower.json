@@ -1,0 +1,22 @@
+{
+  "name": "emtmad-bus-times-bw",
+  "version": "0.0.1",
+  "homepage": "https://github.com/alvaroreig/emtmad-bus-times-bw",
+  "authors": [
+    "Álvaro Reig González <alvaroreig@gmail.com>"
+  ],
+  "description": "JavaScript library to access the API of Madrid Public Bus Authority (EMT)",
+  "main": "emtmadBusTimes.js",
+  "keywords": [
+    "EMT",
+    "bus"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
